@@ -1,0 +1,80 @@
+[
+    {
+        "__type__": "Todo",
+        "content": "Make todx output colored ",
+        "status": " ",
+        "tags": [
+            "todx"
+        ]
+    },
+    {
+        "__type__": "Todo",
+        "content": "Add time and reminder ",
+        "status": " ",
+        "tags": [
+            "todx"
+        ]
+    },
+    {
+        "__type__": "Todo",
+        "content": "Replace tag with unicode ",
+        "status": "v",
+        "tags": [
+            "todx"
+        ]
+    },
+    {
+        "__type__": "Todo",
+        "content": "Use Kamik423/cutie to create todo selects ",
+        "status": " ",
+        "tags": [
+            "todx"
+        ]
+    },
+    {
+        "__type__": "Todo",
+        "content": "Find a floating youtube viewer extension ",
+        "status": "x",
+        "tags": []
+    },
+    {
+        "__type__": "Todo",
+        "content": "Add duplicate removal in csv-purifier ",
+        "status": " ",
+        "tags": [
+            "python"
+        ]
+    },
+    {
+        "__type__": "Todo",
+        "content": "style address bar of firefox ",
+        "status": "v",
+        "tags": [
+            "ricing"
+        ]
+    },
+    {
+        "__type__": "Todo",
+        "content": "Buy a nailcutter ",
+        "status": " ",
+        "tags": [
+            "shopping"
+        ]
+    },
+    {
+        "__type__": "Todo",
+        "content": "Get a Wallet ",
+        "status": " ",
+        "tags": [
+            "shopping"
+        ]
+    },
+    {
+        "__type__": "Todo",
+        "content": "Get a bagpack ",
+        "status": " ",
+        "tags": [
+            "shopping"
+        ]
+    }
+]
