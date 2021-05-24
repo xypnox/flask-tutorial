@@ -1,80 +1,90 @@
-[
+{
+  "parlors": [
     {
-        "__type__": "Todo",
-        "content": "Make todx output colored ",
-        "status": " ",
-        "tags": [
-            "todx"
-        ]
+      "id": "p1",
+      "Name": "Parlor 1",
+      "earning": 102,
+      "location": "Banglore"
     },
     {
-        "__type__": "Todo",
-        "content": "Add time and reminder ",
-        "status": " ",
-        "tags": [
-            "todx"
-        ]
+      "id": "p2",
+      "Name": "Parlor 2",
+      "earning": 10,
+      "location": "Delhi"
     },
     {
-        "__type__": "Todo",
-        "content": "Replace tag with unicode ",
-        "status": "v",
-        "tags": [
-            "todx"
-        ]
-    },
-    {
-        "__type__": "Todo",
-        "content": "Use Kamik423/cutie to create todo selects ",
-        "status": " ",
-        "tags": [
-            "todx"
-        ]
-    },
-    {
-        "__type__": "Todo",
-        "content": "Find a floating youtube viewer extension ",
-        "status": "x",
-        "tags": []
-    },
-    {
-        "__type__": "Todo",
-        "content": "Add duplicate removal in csv-purifier ",
-        "status": " ",
-        "tags": [
-            "python"
-        ]
-    },
-    {
-        "__type__": "Todo",
-        "content": "style address bar of firefox ",
-        "status": "v",
-        "tags": [
-            "ricing"
-        ]
-    },
-    {
-        "__type__": "Todo",
-        "content": "Buy a nailcutter ",
-        "status": " ",
-        "tags": [
-            "shopping"
-        ]
-    },
-    {
-        "__type__": "Todo",
-        "content": "Get a Wallet ",
-        "status": " ",
-        "tags": [
-            "shopping"
-        ]
-    },
-    {
-        "__type__": "Todo",
-        "content": "Get a bagpack ",
-        "status": " ",
-        "tags": [
-            "shopping"
-        ]
+      "id": "p3",
+      "Name": "Parlor 3",
+      "earning": 200,
+      "location": "Lucknow"
     }
-]
+  ],
+  "users": [
+    {
+      "id": "u1",
+      "Name": "Harish",
+      "rewards": 23,
+      "card": {
+        "id": 123,
+        "daily": "12/05/2021",
+        "amount": 200
+      }
+    },
+    {
+      "id": "u2",
+      "Name": "Ramesh",
+      "rewards": 23,
+      "card": {
+        "id": 123,
+        "daily": "12/05/2021",
+        "amount": 200
+      }
+    },
+    {
+      "id": "u3",
+      "Name": "Shubham",
+      "rewards": 23,
+      "card": {
+        "id": 123,
+        "daily": "12/05/2021",
+        "amount": 200
+      }
+    }
+  ],
+  "transactions": [
+    {
+      "id": "t1",
+      "type": "game",
+      "itemId": 123,
+      "amount": 200,
+      "pid": "p2",
+      "uid": "u2"
+    },
+    {
+      "id": "t2",
+      "type": "game",
+      "itemId": 123,
+      "amount": 200,
+      "pid": "p2",
+      "uid": "u3"
+    },
+    {
+      "id": "t3",
+      "type": "game",
+      "itemId": 123,
+      "amount": 200,
+      "pid": "p1",
+      "uid": "u2"
+    }
+  ],
+  "machines": [
+    {
+      "id": "m1",
+      "status": "occupied",
+      "games": [
+        { "id": "g1", "name": "FIFA", "price": 200 },
+        { "id": "g2", "name": "GTA", "price": 100 }
+      ]
+    }
+  ]
+}
