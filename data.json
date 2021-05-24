@@ -4,19 +4,22 @@
       "id": "p1",
       "Name": "Parlor 1",
       "earning": 102,
-      "location": "Banglore"
+      "location": "Banglore",
+      "machines": ["m1"]
     },
     {
       "id": "p2",
       "Name": "Parlor 2",
       "earning": 10,
-      "location": "Delhi"
+      "location": "Delhi",
+      "machines": ["m1"]
     },
     {
       "id": "p3",
       "Name": "Parlor 3",
       "earning": 200,
-      "location": "Lucknow"
+      "location": "Lucknow",
+      "machines": ["m1"]
     }
   ],
   "users": [
@@ -47,7 +50,7 @@
       "card": {
         "id": 123,
         "daily": "12/05/2021",
-        "amount": 200
+        "amount": 400
       }
     }
   ],
@@ -58,7 +61,8 @@
       "itemId": 123,
       "amount": 200,
       "pid": "p2",
-      "uid": "u2"
+      "uid": "u2",
+      "mid": "m1"
     },
     {
       "id": "t2",
@@ -66,7 +70,8 @@
       "itemId": 123,
       "amount": 200,
       "pid": "p2",
-      "uid": "u3"
+      "uid": "u3",
+      "mid": "m1"
     },
     {
       "id": "t3",
@@ -74,13 +79,15 @@
       "itemId": 123,
       "amount": 200,
       "pid": "p1",
-      "uid": "u2"
+      "uid": "u2",
+      "mid": "m1"
     }
   ],
   "machines": [
     {
       "id": "m1",
-      "status": "occupied",
+      "status": "available",
+      "pid": "p2",
       "games": [
         { "id": "g1", "name": "FIFA", "price": 200 },
         { "id": "g2", "name": "GTA", "price": 100 }
